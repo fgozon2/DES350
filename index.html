@@ -39,7 +39,34 @@ background-color: #d8d8dc;
 	}
 	
 	
-	.calculator{
+	.aboutme{
+	font-weight:600;	
+	background: #858a7e;
+	text-align: left;
+	padding-left:40px;
+	font-size: 100px;	
+	color: #244441;	
+	width: 100%;
+	height:300px;
+	padding-top:70px;
+	}
+
+	
+#calculator{transition-timing-function: ease-in-out;}	
+#principles{transition-timing-function: ease-in-out;}
+#portrait{transition-timing-function: ease-in-out;}	
+	
+	a {
+		text-decoration: none;
+		color: #244441;
+	}	
+	
+	a:hover {
+		text-decoration: underline;
+	}	
+		
+	
+.calculator{
 	background: #bb9236;
 	font-size: 50px;	
 	color: #874a27;	
@@ -60,15 +87,14 @@ background-color: #d8d8dc;
 	border-radius: 27px;
 	text-align:left;
 	padding-left:10px;	
-	transition: width 2s;
-	
-	} 
+	transition: width 2s;	
+	}
 	
 	.portrait{
 	background: #bb9236;
 	font-size: 50px;	
 	color: #874a27;	
-	width: 400px;
+	width: 400px;	
 	height: 20px;
 	border-radius: 27px;
 	text-align:left;
@@ -76,61 +102,65 @@ background-color: #d8d8dc;
 	transition: width 2s;	
 	}
 	
-	.aboutme{
-	font-weight:600;	
-	background: #858a7e;
-	text-align: left;
-	padding-left:40px;
-	font-size: 100px;	
-	color: #244441;	
-	width: 100%;
-	height:300px;
-	padding-top:70px;
-	}
 	
-	.hide{
+.hide1{
+	visibility: hidden;
+	position: absolute;
+	left: 450px;
+	top: 230px;
 	color: #244441;
 	font-size: 30px;
-	height:32px;
-	float:right;	
-	padding-right:600px;	
-		
-	}
-	
-#calculator{transition-timing-function: ease-in-out;}	
-#principles{transition-timing-function: ease-in-out;}
-#portrait{transition-timing-function: ease-in-out;}	
-
-.portrait:hover {
-  width: 600px;
 }
+	
+.hide2{
+	visibility: hidden;
+	position: absolute;
+	left: 450px;
+	top: 330px;
+	color: #244441;
+	font-size: 30px;
+}	
+	
+	.hide3{
+	visibility: hidden;
+	position: absolute;
+	left: 350px;
+	top: 430px;
+	color: #244441;
+	font-size: 30px;
+}	
+	
+	
 .calculator:hover {
-  width: 600px;
-}	
-.principles:hover {
-  width: 600px;
-}	
-	
-	
-.hide {
-  display: none;
-}
-    
-.portrait:hover + .hide {
-  display: block;
-  color: #244441
-}
-	
-.principles:hover + .hide {
-  display: block;
-  color: #244441
-}	
-
-.calculator:hover + .hide {
-  display: block;
-  color: #244441
-}		
+	width: 800px;
+	}	
 		
+
+.calculator:hover .hide1 {
+visibility: visible;
+	z-index: 100;
+	}	
+	
+	.principles:hover {
+	width: 800px;
+	}	
+		
+
+.principles:hover .hide2 {
+visibility: visible;
+	z-index: 100;
+	}	
+	
+	.portrait:hover {
+	width: 800px;
+	}	
+		
+
+.portrait:hover .hide3 {
+visibility: visible;
+	z-index: 100;
+	}	
+	
 	
 </style>
 	
@@ -153,22 +183,25 @@ background-color: #d8d8dc;
 <br>
 <br>
 <br>	
+	
 <div class="calculator">
 <h3>Calculator</h3>	
-</div>	
-<div class="hide"> • calculator draft
-<br>• final calculator design</div>	
+<div class="hide1"> • <a href="http://google.com">calculator draft</a>
+<br>• <a href="http://google.com">final calculator design</a></div></div>	
+	
+	
+	
 <br>		
 <div class= "principles">	
 <h3>10 Principles</h3>	
-</div>	
-<div class="hide"> • 10 principles draft
-<br>• final 10 principles design</div>	
+<div class="hide2"> •<a href="">10 principles draft</a>
+<br>•<a href="http://google.com">final 10 principles design</a></div></div>		
+
 <br>	
 <div class="portrait">
 <h3>Portrait</h3>	
-</div>
-<div class="hide">• portrait draft</div>	
+<div class="hide3"> •<a href="">portrait draft</a>
+<br>•<a href="http://google.com">final portrait design</a></div></div>	
 <br>	
 <br>
 <br>	
