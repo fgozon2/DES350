@@ -1,56 +1,102 @@
 <!doctype html>
 <html>
 <head>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
 <meta charset="UTF-8">
+<style>	
 	
-<style>
-	
-	body{	
+body{	
 background-color: #d8d8dc;
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: 'DM Serif Display', serif;
 	width: 100%;	
 	}
-	
-	
-	h1{
+
+h1{
 	color: #244441;
-	font-size: 120px;
-	font-weight:600;
-	font-style: italic;	
-	width:80px;
-	float:right;
+	font-size: 100px;
 	line-height: 100px;
-	position:relative;
-	right:505px;
-	text-align: left;	
+	position:absolute;	
   	
 	}
 	
+h2{
+	color: #cfa48d;
+	font-size: 20px;
+	line-height: 100px;
+	position:absolute;
+	}	
 	
-	h2{
-	color: #244441;
-	font-size: 25px;
-	font-weight:600;
-	font-style: italic;	
-	height:60px;
-	float:right;	
-	right:505px;
+.calculator{
+	display: inline-block;
+	background: #bb9236;
+	color: #874a27;;
+	text-align: center;
+	line-height: 105px;
+	width: 200px;
+	height: 200px;
+	transition: width 2s;
+	}	
+	
+.principles{
+	display: inline-block;
+	background: #bb9236;
+	color: #874a27;;
+	text-align: center;
+	line-height: 105px;
+	width: 200px;
+	height: 200px;
+	transition: width 2s;
+	}	
 		
-	}
+.portrait{
+	display: inline-block;
+	background: #bb9236;
+	color: #874a27;;
+	text-align: center;
+	line-height: 105px;
+	width: 200px;
+	height: 200px;
+	transition: width 2s;
+	}	
+		
 	
+.hide1{
+	visibility: hidden;
+	position: absolute;
+	color: #874a27;
+	font-size: 30px;
+	top: 470px;	
+	left: 250px;
 	
-	.aboutme{
-	font-weight:600;	
+}	
+	
+	.hide2{
+	visibility: hidden;
+	position:absolute;
+	color: #874a27;
+	font-size: 30px;
+	top: 470px;	
+	left: 450px;		
+}	
+	
+	.hide3{
+	visibility: hidden;
+	position: absolute;
+	top: 470px;	
+	left: 650px;	
+	color: #874a27;
+	font-size: 30px;	
+}	
+	
+	.aboutme{	
 	background: #858a7e;
 	text-align: left;
-	padding-left:40px;
 	font-size: 100px;	
 	color: #244441;	
 	width: 100%;
 	height:300px;
 	padding-top:70px;
 	}
-
 	
 #calculator{transition-timing-function: ease-in-out;}	
 #principles{transition-timing-function: ease-in-out;}
@@ -64,85 +110,22 @@ background-color: #d8d8dc;
 	a:hover {
 		text-decoration: underline;
 	}	
-		
 	
-.calculator{
-	background: #bb9236;
-	font-size: 50px;	
-	color: #874a27;	
-	width: 400px;
-	height: 20px;
-	border-radius: 27px;
-	text-align:left;
-	padding-left:10px;	
-	transition: width 2s;	
-	}
-	
-	.principles{
-	background: #bb9236;
-	font-size: 50px;	
-	color: #874a27;	
-	width: 400px;
-	height: 20px;
-	border-radius: 27px;
-	text-align:left;
-	padding-left:10px;	
-	transition: width 2s;	
-	}
-	
-	.portrait{
-	background: #bb9236;
-	font-size: 50px;	
-	color: #874a27;	
-	width: 400px;	
-	height: 20px;
-	border-radius: 27px;
-	text-align:left;
-	padding-left:10px;	
-	transition: width 2s;	
-	}
-	
-	
-.hide1{
-	visibility: hidden;
-	position: absolute;
-	left: 450px;
-	top: 230px;
-	color: #244441;
-	font-size: 30px;
-}
-	
-.hide2{
-	visibility: hidden;
-	position: absolute;
-	left: 450px;
-	top: 330px;
-	color: #244441;
-	font-size: 30px;
-}	
-	
-	.hide3{
-	visibility: hidden;
-	position: absolute;
-	left: 350px;
-	top: 430px;
-	color: #244441;
-	font-size: 30px;
-}	
 	
 	
 .calculator:hover {
-	width: 800px;
+	width: 700px;
 	}	
 		
 
 .calculator:hover .hide1 {
 visibility: visible;
 	z-index: 100;
+
 	}	
 	
 	.principles:hover {
-	width: 800px;
+width: 700px;
 	}	
 		
 
@@ -152,7 +135,7 @@ visibility: visible;
 	}	
 	
 	.portrait:hover {
-	width: 800px;
+	width: 700px;
 	}	
 		
 
@@ -162,19 +145,15 @@ visibility: visible;
 	}	
 	
 	
-</style>
-	
-	
+</style>	
 <title>index</title>
 </head>
 
-	
-	
 <body>
 <div class = "header">	
 <h1>FAYE GOZON</h1>		
 <h2>DES 350</h2>
-</div>	
+</div>
 <br>	
 <br>
 <br>
@@ -183,31 +162,38 @@ visibility: visible;
 <br>
 <br>
 <br>	
-	
+<br>	
+<br>
+<br>
+<br>	
+<br>	
+<br>
+<br>
+<br>		
 <div class="calculator">
 <h3>Calculator</h3>	
-<div class="hide1"> • <a href="http://google.com">calculator draft</a>
-<br>• <a href="http://google.com">final calculator design</a></div></div>	
+<div class="hide1"> 
+•<a href="yellow_calculator.html" target="_self">draft</a>	
+•<a href="calculator.html">final design</a></div></div>	
 	
-	
-	
-<br>		
-<div class= "principles">	
+<div class="principles">
 <h3>10 Principles</h3>	
-<div class="hide2"> •<a href="">10 principles draft</a>
-<br>•<a href="http://google.com">final 10 principles design</a></div></div>		
+<div class="hide2">
+•<a href="10principlesdraft3.html" target="_self">draft</a>	
+•<a href="FINAL10principles.html" target="_self">final</a></div></div>	
 
-<br>	
 <div class="portrait">
 <h3>Portrait</h3>	
-<div class="hide3"> •<a href="">portrait draft</a>
-<br>•<a href="http://google.com">final portrait design</a></div></div>	
+<div class="hide3">
+•<a href="portraitdraft.html" target="_self">draft</a>	
+•<a href="">final design</a></div></div>		
 <br>	
 <br>
+<br>
+<br>
+<br>		
 <br>	
-<br>
-<br>
 <div class = "aboutme">Hello. 
-<br>I hate root beer.</div>	
-</body>	
+<br>I hate root beer.</div>		
+</body>
 </html>
