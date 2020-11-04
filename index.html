@@ -57,7 +57,18 @@ h2{
 	width: 200px;
 	height: 200px;
 	transition: width 2s;
-	}	
+	}
+	
+.park{
+	display: inline-block;
+	background: #bb9236;
+	color: #874a27;;
+	text-align: center;
+	line-height: 105px;
+	width: 200px;
+	height: 200px;
+	transition: width 2s;
+	}
 		
 	
 .hide1{
@@ -88,6 +99,15 @@ h2{
 	font-size: 30px;	
 }	
 	
+	.hide4{
+	visibility: hidden;
+	position: absolute;
+	top: 470px;	
+	left: 650px;	
+	color: #874a27;
+	font-size: 30px;	
+}	
+	
 	.aboutme{	
 	background: #858a7e;
 	text-align: left;
@@ -100,7 +120,8 @@ h2{
 	
 #calculator{transition-timing-function: ease-in-out;}	
 #principles{transition-timing-function: ease-in-out;}
-#portrait{transition-timing-function: ease-in-out;}	
+#portrait{transition-timing-function: ease-in-out;}
+#park{transition-timing-function: ease-in-out;}	
 	
 	a {
 		text-decoration: none;
@@ -143,6 +164,16 @@ visibility: visible;
 visibility: visible;
 	z-index: 100;
 	}	
+	
+	.park:hover {
+	width: 700px;
+	}	
+		
+
+.park:hover .hide4 {
+visibility: visible;
+	z-index: 100;
+	}
 	
 	
 </style>	
@@ -187,7 +218,13 @@ visibility: visible;
 <h3>Portrait</h3>	
 <div class="hide3">
 •<a href="portraitdraft.html" target="_self">draft</a>	
-•<a href="finalportrait.html" target="_self">final</a></div></div>		
+•<a href="finalportrait.html" target="_self">final</a></div></div>	
+
+<div class="park">
+<h3>Portrait</h3>	
+<div class="hide4">
+•<a href="" target="_self">draft</a>	
+•<a href="" target="_self">final</a></div></div>		
 <br>	
 <br>
 <br>
