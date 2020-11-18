@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>park</title>
+	
+	<style>
+		body {
+		background-color: #ccc;
+			margin: 0px;
+			padding: 0px;
+		}
+		
+		.card{
+		position: absolute;
+		left: 30%;
+		top: 10%;
+		width: 40%;
+		height: 90vh;
+		transform: translate (-50%, -50%);
+		background: url("parkb&w.jpg") no-repeat center;
+		background-size: contain;				
+		}
+		
+		.card:hover{
+		background: url("park.gif") no-repeat center;
+		background-size: contain;		
+		}
+		
+		#preload{
+		background: url("park.gif") no-repeat -9999px -9999px;
+		}
+		
+	</style>
+	
+</head>
+	
+<body>
+	
+<div id="preload"></div>
+<div class="card"></div>	
+</body>
+</html>
