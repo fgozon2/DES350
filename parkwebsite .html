@@ -1,0 +1,531 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>	
+	body{
+	background-color:#cec0b3;
+	font-family: Futura, Arial;
+	margin: auto;	
+	}
+	
+	.header{	
+	line-height: 60px;	
+	width:100%;	
+	}
+	
+	h1{
+	position:absolute;
+	font-size: 170px;
+  left: 995px;		
+	top:-5px;	
+	}
+	
+	h2{
+	position:absolute;
+	font-size: 170px;
+	top:110px;	
+  left: 15px;			
+	}
+	
+	h3{
+	position:absolute;
+	font-size: 170px;
+	top:218px;	
+  left: 399px;	
+	z-index: -10;	
+	}
+	
+	h4{
+	position:absolute;
+	font-size: 170px;
+	top:300px;	
+  left: 880px;			
+	}
+	
+	#orange{
+		wdith:100%;
+      height:1000px;
+	font-family: Futura, Arial;	
+		background-color:#cc8127;
+		position:absolute;
+		top: 790px;
+		z-index: -8;
+	}
+	
+	.orangecurve1{
+		color:#cc8127;
+		width:1445px;
+		height: 70px;	
+		position:absolute;
+		top: 415px;
+		left:-20px;
+		 z-index: -9;
+}
+
+	#yellow{
+		width:100%;
+      height:1200px;
+	font-family: Futura, Arial;	
+		background-color:#d1d124;
+		position:absolute;
+			top: 1790px;
+		z-index: -6;
+	}
+	
+	#hiking{
+	position:absolute;
+	font-size: 70px;
+	top:100px;	
+  left: 169px;
+	font-weight:400;
+		z-index: -8;
+	}
+	
+	#shoe{
+	position: absolute;	
+	top: 1780px;
+  left: 5px;	
+	}
+	
+	#fishing{
+	position:absolute;
+	font-size: 70px;
+	top:-200px;	
+  left: 599px;
+	font-weight:400;
+		z-index: -6;
+	}
+	
+	#FISH{
+	position: absolute;	
+	top: 1670px;
+  left: 500px;	
+	}
+	
+	#horse{
+	position:absolute;
+	font-size: 70px;
+	top:618px;	
+  left: 799px;
+	font-weight:400;
+		z-index: -6;
+	}
+	
+	#horsesvg{
+	position: absolute;	
+	top: 2218px;
+  left: 1100px;	
+	}
+	
+	.yellow1{
+	position:absolute;
+	font-size: 33px;
+	top:200px;	
+	left:60px;
+	width: 30%;
+	font-weight:400;
+		z-index: -6;
+	}
+	
+	.yellow2{
+	position:absolute;
+	font-size: 33px;
+	top:40px;
+	left:870px;
+	width: 35%;
+	font-weight:400;
+		z-index: -6;
+	}
+	
+	.yellow3{
+	position:absolute;
+	font-size: 33px;
+	top:600px;	
+	left:300px;
+	width: 30%;
+	font-weight:400;
+		z-index: -6;
+	}
+	
+	.yellowcurve1{
+	width:1550px;
+		height: 100px;
+		position:absolute;
+		top: 1450px;
+		left:-120px;
+		 z-index: -7;
+}
+		
+
+	
+	
+	
+	
+	
+	#green{
+		width:100%;
+      height:1200px;
+	font-family: Futura, Arial;	
+		background-color:#22d322;
+		position:absolute;
+		top: 2929px;
+		z-index: -4;
+	}
+	
+	#water{
+		position:absolute;
+	font-size: 70px;
+	top: 9px;
+  left: 10px;
+	font-weight:400;
+		z-index: -4;
+	}
+	
+	#boat{
+	position: absolute;	
+	top: 3110px;
+  left: 680px;	
+	}
+	
+	#sight{
+		position:absolute;
+	font-size: 70px;
+	top: 439px;
+  left: 970px;
+	font-weight:400;
+		z-index: -4;
+	}
+	
+	#binoculars{
+	position: absolute;	
+	top: 3750px;
+  left: 1230px;	
+	}
+	
+	.green1{
+	position:absolute;
+	font-size: 33px;
+	top: 149px;
+  left: 10px;
+	width: 45%;
+	font-weight:400;
+		z-index: -4;	
+	}
+	
+	.green2{
+	position:absolute;
+	font-size: 33px;
+	top: 530px;
+  left: 970px;
+	width: 30%;
+	font-weight:400;
+		z-index: -4;	
+	}
+	
+	
+	.greencurve1{
+	width:1500px;
+		height: 100px;
+		position:absolute;
+		top: 2525px;
+		left:-70px;
+		 z-index: -5;
+	}	
+
+	
+	
+	
+	
+	#skyblue{
+		width:100%;
+      height:1530px;
+	font-family: Futura, Arial;	
+		background-color:#21afd6;
+		position:absolute;
+		top: 4000px;
+		z-index: -2;
+	}
+	
+#year{
+		position:absolute;
+	font-size: 70px;
+	top: 200px;
+  left: 1040px;
+	font-weight:400;
+		 z-index: -2;
+	}
+	
+	#miles{
+		position:absolute;
+	font-size: 70px;
+	top: -10px;
+  left: 130px;
+	font-weight:400;
+		z-index: -2;}
+	
+	#coordinates{
+		position:absolute;
+	font-size: 70px;
+	top: 650px;
+  left: 10px;
+	font-weight:400;
+		z-index: -2;}
+	}
+	
+	
+	.skyblue1{
+	position:absolute;
+	font-size: 33px;
+	top: 559px;
+  left: 970px;
+	width: 30%;
+	font-weight:400;
+		z-index: -2;	
+	}
+	
+	.skyblue1{
+	position:absolute;
+	font-size: 33px;
+	top: 111px;
+  left: 17px;
+	width: 45%;
+	font-weight:400;
+		z-index: -2;	
+	}
+	
+	
+	.skyblue2{
+	position:absolute;
+	font-size: 33px;
+	top: 305px;
+  left: 750px;
+	width: 45%;
+	font-weight:400;
+		z-index: -2;	
+	}
+	
+	.skyblue3{
+	position:absolute;
+	font-size: 33px;
+	top: 760px;
+  left: 270px;
+	width: 70%;
+	font-weight:400;
+		z-index: -2;		
+	}
+	
+	.skybluecurve1{
+	width:1490px;
+		height: 2000px;
+		position:absolute;
+		top:3545px;
+		left:-65px;
+		 z-index:-3;
+	}	
+	
+	
+	
+	#darkblue{
+		wdith:100%;
+      height:1000px;
+	font-family: Futura, Arial;	
+		background-color:#cc8127;
+		position:absolute;
+		top: 540px;
+		z-index: -8;
+	}
+	
+	
+	#darkblue{
+		color: #eabf7a;
+		width:100%;
+      height:300px;
+	font-family: Futura, Arial;	
+		background-color:#1e3ad8;
+		position:absolute;
+		top: 5440px;
+		z-index: 0;
+	}
+	
+	#site{
+	position:absolute;
+	font-size: 33px;
+	top: -300px;
+  left: 235px;
+	width: 50%;
+	font-weight:400;
+		z-index:0;
+	}
+
+	
+	#citation{
+	width:100%;
+      height:100px;
+		position:absolute;
+		font-size: 33px;
+		top: 100px;
+		left: 40px;
+		z-index: 0;
+	}
+	
+	.sources{
+	position:absolute;	
+	font-size: 33px;
+	top: 149px;
+  left: 40px;
+	width: 30%;
+	font-weight:400;
+		z-index: -2;	
+	}
+	
+	.darkbluecurve1{
+	width:1560px;
+		height:0px;
+		position:absolute;
+		top: 5000px;
+		left:-225px;
+		 z-index: -1;
+	}	
+	
+	
+	p{
+	font-size: 33px;	
+	padding-left: 110px;
+	width: 55%;	
+	z-index: 0;	
+	}
+	
+	
+	
+	#arrow{
+	position: absolute;	
+	top: 5200px;
+  left: 380px;	
+	}
+	
+	#orangecurve{
+	fill:#cc8127;	
+	}
+	
+	#yellowcurve{
+	fill:#d1d124;	
+	}
+	
+	#greencurve{
+	fill:#22d322;	
+	}
+	
+	#skybluecurve{
+	fill:#21afd6;	
+	}
+	
+	#darkbluecurve{
+	fill:#1e3ad8;	
+	}
+
+
+
+
+
+		
+	
+</style>	
+<title>parkwebsite</title>
+</head>
+
+<body>
+	
+
+<div class="header">
+<h1>visit</h1>	
+<h2>YELLOWSTONE</h2>
+<h3>NATIONAL</h3> 
+<h4>PARK</h4>	
+</div>
+
+<div id="orange">
+<p>	
+Yellowstone National Park is a huge natural preserve located in the north central part of the United States of America. It is one of the largest national parks in the central part of the American continent.Yellowstone became the first national park for all to enjoy the unique hydrothermal and geologic wonders. Yellowstone is as wondrous as it is complex.
+<br>
+<br>
+The park is at the heart of the Greater Yellowstone Ecosystem, where nature and culture abound. About 5% covered by water; 15% by grassland; and 80% by forests. It is larger than Rhode Island and Delaware combined.	
+</p>	
+</div>	
+	
+<div class="orangecurve1">
+<section><svg id="orangecurve" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 805.09 252.14"><path class="cls-1" d="M287,134.83c58.06,20.6,145.9,114.53,213,166.55a121.48,121.48,0,0,0,118.06,17.15l180.41-69.46v119.4H-6.54V236.76c.14-.16.27-.34.4-.51C123,56.05,280.29,131.51,286.61,134.64a3.3,3.3,0,0,0,.43.19" transform="translate(6.54 -116.33)"/></svg></section>	
+</div>	
+
+	
+<div id="yellow">
+<div id="hiking">Hiking</div>	
+<div class="yellow1">Yellowstone encompasses more than 2.2 million acres, has more than 900 miles (1,449 km) of hiking trails, and is primarily managed as wilderness.</div>
+<div id="fishing">Fishing</div>
+<div class="yellow2">About 50,000 of the park’s four million visitors fish each year. Fishing has been a popular recreation activity for visitors here for more than 100 years, and many people come to Yellowstone just to fish.</div>
+<div id="horse">Horseback riding</div>	
+<div class="yellow3">Horseback riding is a great way to slow down and experience the park.  The Park Lodges also offers one to two hours horse rides at Tower-Roosevelt and Canyon.</div>
+</div>		
+<div id="horsesvg">	
+<img src="horsesvg.svg" width="170" height="170"></div>	
+<div id="shoe">	
+<img src="shoe.svg" width="160" height="160"></div>		
+<div id="FISH">	
+<img src="FISH.svg" width="190" height="190"></div>	
+	
+<div class="yellowcurve1">
+<section><svg id="yellowcurve" svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 810.5 397.46"><path class="cls-1" d="M-18.42,671.27c18.27-9.33,31.2-29.11,34.26-52.4L42.92,412.76c5.73-43.63,44.26-69.53,78.9-53L239.44,415.8c18.06,8.6,38.53,5.93,54.54-7.11L444.66,285.91c28.26-23,67.2-12.07,83.79,23.59l45.3,97.4c20.45,44,72.48,48.14,97.57,7.79h0c25.89-41.64,79.95-35.62,99,11L792,478.83C801.25,501.47-18.42,671.27-18.42,671.27Z" transform="translate(18.42 -273.81)"/></g></svg></section>
+</div>	
+	
+
+<div id="green">
+<div id="water">Water rafting and paddling</div>	
+<div class="green1">Using a boat offers a great way to see the park from a different perspective.Yellowstone Lake is the largest water body of the park, with the water surface area close to 136 square miles, maximum length of about 20 miles and maximum width of about 15 miles.</div>
+<div id="sight">Sightseeing</div>
+<div class="green2">Yellowstone's abundant wildlife is as famous as its geysers. In the park, animals have over 3,000 square miles (over 7,500 square km) of habitat available to them</div>
+</div>
+	
+<div id="binoculars">	
+<img src="binoculars.svg" width="140" height="140"></div><div id="boat">	
+<img src="boat.svg" width="195" height="195"></div>	
+<div class="greencurve1"><section><svg id="greencurve" svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 808.12 428.02"><path class="cls-1" d="M-18.37,643.24l7.13-154.64c4.77-103.55,127.62-154,202.84-83.3h0a120,120,0,0,0,166.22-1.55L507.3,257.92a120.06,120.06,0,0,1,180.81,14.89L789.53,437.5C804.81,466.6-20.92,698.46-18.37,643.24Z" transform="translate(18.38 -223.68)"/></g></svg></section>
+</div>		
+	
+	
+	
+	
+	
+<div id="skyblue">
+<div id="miles">3468.4 mi</div>
+<div class="skyblue1">Yellowstone National Park is in the northwest region of the United States and covers 3,472 square miles. </div>
+<div id="year">1872</div>
+<div class="skyblue2">In 1871, artist Thomas Moran and photographer William Henry Jackson used their mediums to capture the beauty of the park.Congress saw this and the next year, Congress and President Ulysses Grant created Yellowstone National Park.</div>
+<div id ="coordinates">44°36’N 110°30’W</div>
+<div class ="skyblue3">Even though the official address is to the state of Wyoming, Yellowstone is actually in three states. The majority Yellowstone (96%) is in Wyoming. A small section of the park (3%) to the north and northwest is in Montana. And a small section of the park (1%) to the west is in Idaho.</div>	
+</div>		
+
+<div class="skybluecurve1">
+<section><svg id="skybluecurve" svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1337.2 519.1"><path class="cls-1" d="M-156,594,43.17,295.93c77.7-116.27,255.07-135.81,361-39.77l209.48,190c43.66,39.6,103,61.67,164.87,61.25L948,506.3c127.52-.86,231.53,92.13,232.31,207.69C1180.28,714-197.29,655.78-156,594Z" transform="translate(156.92 -194.88)"/></g></svg>
+</section>	
+</div>	
+	
+	
+	
+	
+
+<div id="darkblue">
+<div id="site">go to nps.org for more info</div>	
+<div id="citation">Citations</div>
+<div class ="sources">https://www.nps.gov
+https://www.yellowstonepark.com
+https://www.latlong.net</div>	
+</div>		
+	
+<div id="arrow">	
+<img src="arrow.svg" width="70" height="50"></div>	
+<div class="darkbluecurve1">
+<section><svg id="darkbluecurve" svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 852.48 372.55"><path class="cls-1" d="M791.81,628.7c9.43-81.45-61-156.88-172.61-184.2-209.47-51.3-158-194.86-315.47-169.24-57.59,9.37-104.32,38.27-125.82,76.28C99.2,490.7,16.77,514.78-55.38,554.26-131.14,595.71,785.87,680,791.81,628.7Z" transform="translate(59.83 -272.23)"/></g></svg>	
+</section></div>		
+
+</body>
+</html>
